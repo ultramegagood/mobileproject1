@@ -1,0 +1,78 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'insured_list.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+InsuredList _$InsuredListFromJson(Map<String, dynamic> json) => InsuredList(
+      json['id'] as int,
+      json['firstName'] as String?,
+      json['middleName'] as String?,
+      json['lastName'] as String?,
+      json['firstNameEng'] as String?,
+      json['lastNameEng'] as String?,
+      json['legalName'] as String?,
+      json['isIndividual'] as int,
+      json['iin'] as String?,
+      json['isResident'] as int,
+      json['countryId'] as int,
+      json['sexId'] as int,
+      json['economicsSectorId'] as int,
+      json['activityKindId'] as int,
+      json['phone'] as String?,
+      json['email'] as String?,
+      json['address'] as String?,
+      json['documentTypeId'] as int,
+      json['documentNumber'] as String?,
+      json['documentIssueDate'] as String?,
+      json['driverLicenseNumber'] as String?,
+      json['driverLicenseNumberIssueDate'] as String?,
+      json['classType'] as String?,
+      json['birthDate'] as String?,
+      json['isExperienced'] as bool,
+      json['isPrivileged'] as bool,
+      json['isDriver'] as bool,
+      json['isInsurer'] as bool,
+      json['sportId'] as int?,
+      json['sportyCategoryId'] as int?,
+      json['ageId'] as int?,
+      json['documentGivenBy'] as String?,
+    );
+
+Map<String, dynamic> _$InsuredListToJson(InsuredList instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'firstName': instance.firstName,
+      'middleName': instance.middleName,
+      'lastName': instance.lastName,
+      'firstNameEng': instance.firstNameEng,
+      'lastNameEng': instance.lastNameEng,
+      'legalName': instance.legalName,
+      'isIndividual': instance.isIndividual,
+      'iin': instance.iin,
+      'isResident': instance.isResident,
+      'countryId': instance.countryId,
+      'sexId': instance.sexId,
+      'economicsSectorId': instance.economicsSectorId,
+      'activityKindId': instance.activityKindId,
+      'phone': instance.phone,
+      'email': instance.email,
+      'address': instance.address,
+      'documentTypeId': instance.documentTypeId,
+      'documentNumber': instance.documentNumber,
+      'documentIssueDate': instance.documentIssueDate,
+      'driverLicenseNumber': instance.driverLicenseNumber,
+      'driverLicenseNumberIssueDate': instance.driverLicenseNumberIssueDate,
+      'classType': instance.classType,
+      'birthDate': instance.birthDate,
+      'isExperienced': instance.isExperienced,
+      'isPrivileged': instance.isPrivileged,
+      'isDriver': instance.isDriver,
+      'isInsurer': instance.isInsurer,
+      'sportId': instance.sportId,
+      'sportyCategoryId': instance.sportyCategoryId,
+      'ageId': instance.ageId,
+      'documentGivenBy': instance.documentGivenBy,
+    };
